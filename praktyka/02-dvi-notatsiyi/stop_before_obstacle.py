@@ -12,8 +12,8 @@ tank = MoveTank(OUTPUT_A, OUTPUT_B)
 ultra = UltrasonicSensor(INPUT_2)
 THRESHOLD = 15  # см
 
-# tank.on() вмикає мотори й одразу повертає керування, тож у циклі
-# ми читаємо датчик, поки робот їде (on_for_seconds() заблокувало б програму)
+# tank.on() не чекає, тому в циклі можна читати датчик, поки робот їде
+# (on_for_seconds() тут не годиться: поки воно працює, датчик не читається)
 tank.on(30, 30)
 while ultra.distance_centimeters > THRESHOLD:
     time.sleep(0.01)
