@@ -18,6 +18,10 @@
 
 Сцена: `kursova/scena/custom_world_tyzhden6.json` (та сама, що з тижня 4, але робот стартує в точці (0, 60) обличчям на південь і потрапляє на зону).
 
+## Відео
+
+https://drive.google.com/file/d/1_b5oFHen0XSyTNqaBVi2T2fcR0KHvIL4/view?usp=sharing
+
 ## Прогони
 
 | № | Версія | Переходи | Відстань до об'єкта |
