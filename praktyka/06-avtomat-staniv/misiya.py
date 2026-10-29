@@ -21,6 +21,7 @@ MIN_OK = 12           # з картки: 15 ± 3 см
 MAX_OK = 18
 TAIMAUT = 30          # с у одному стані
 MAKS_ZON = 5          # більше заходів у зону — щось не так, зупиняємось
+SHVYDKIST_POSHUK = 30  # % у стані poshuk; у роботі 9 міняю між прогонами
 
 stan = "poshuk"
 vkhid = time.time()   # коли увійшли в поточний стан
@@ -44,7 +45,7 @@ while stan != "gotovo":
     c = color.reflected_light_intensity
 
     if stan == "poshuk":              # їдемо вперед
-        tank.on(SpeedPercent(30), SpeedPercent(30))
+        tank.on(SpeedPercent(SHVYDKIST_POSHUK), SpeedPercent(SHVYDKIST_POSHUK))
         if c < PORIH_ZONY:
             perekhid("zona")
         elif d < PORIH_PIDHID:
