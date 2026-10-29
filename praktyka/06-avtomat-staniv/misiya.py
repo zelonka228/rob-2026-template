@@ -16,9 +16,9 @@ time.sleep(0.5)
 
 PORIH_ZONY = 40       # з роботи 4: нижче — заборонена зона
 PORIH_PIDHID = 45     # см: ближче — їдемо повільно
-PORIH_STOP = 23       # см: ціль за карткою 15 ± 3; з порогом 15 робот
-                      # проїжджав до 6,5 см, бо в циклі два датчики й мотори
-                      # ще їдуть після команди
+PORIH_STOP = 20       # см: тут зупиняємо хід, далі точно доводимо
+MIN_OK = 12           # з картки: 15 ± 3 см
+MAX_OK = 18
 TAIMAUT = 30          # с у одному стані
 MAKS_ZON = 5          # більше заходів у зону — щось не так, зупиняємось
 
@@ -54,6 +54,17 @@ while stan != "gotovo":
         if c < PORIH_ZONY:
             perekhid("zona")
         elif d < PORIH_STOP:
+            tank.off()
+            perekhid("utochnennya")
+
+    elif stan == "utochnennya":       # довести до 15 ± 3 см за реальною відстанню
+        if time.time() - vkhid < 0.7:
+            tank.off()                # дати моторам зупинитись
+        elif d < MIN_OK:
+            tank.on(SpeedPercent(-5), SpeedPercent(-5))
+        elif d > MAX_OK:
+            tank.on(SpeedPercent(5), SpeedPercent(5))
+        else:
             tank.off()
             perekhid("gotovo")
 
