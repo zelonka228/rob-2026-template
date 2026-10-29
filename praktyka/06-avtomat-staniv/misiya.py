@@ -24,6 +24,7 @@ MAKS_ZON = 5          # більше заходів у зону — щось н�
 
 stan = "poshuk"
 vkhid = time.time()   # коли увійшли в поточний стан
+pochatok = time.time()  # старт прогону, для загального часу
 zon = 0               # скільки разів спрацював стан zona
 
 
@@ -88,4 +89,4 @@ while stan != "gotovo":
         break
 
 tank.off()
-print("зон оминув:", zon, "· відстань до об'єкта:", round(ultra.distance_centimeters, 1), "см")
+print("зон оминув:", zon, "· відстань до об'єкта:", round(ultra.distance_centimeters, 1), "см · час:", round(time.time() - pochatok, 1), "с")

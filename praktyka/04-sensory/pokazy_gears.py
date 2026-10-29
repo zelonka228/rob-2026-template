@@ -1,5 +1,5 @@
 # Робота 4: покази кольору й ультразвуку в русі через заборонену зону.
-# Світ: kursova/scena/custom_world.json (Worlds -> Load from file).
+# Світ: kursova/scena/custom_world_tyzhden4.json (Worlds -> Load from file).
 # Робот розвертається на 180° і їде на південь через зону (20, -150).
 
 import time

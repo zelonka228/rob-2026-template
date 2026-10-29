@@ -24,27 +24,27 @@
       {
         "type": "box",
         "position": [
-          -100,
-          -100,
+          -160,
+          -160,
+          0.05
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          40,
+          40,
           0.1
         ],
-        "rotationMode": "degrees",
-        "rotation": [
-          0,
-          0,
-          0
-        ],
-        "animationMode": "none",
-        "animationKeys": [],
-        "size": [
-          70,
-          70,
-          0.2
-        ],
         "modelURL": "",
         "modelScale": 10,
         "modelAnimation": "None",
-        "color": "#262626ff",
+        "color": "#b8f0b8ff",
         "imageType": "repeat",
         "imageURL": "",
         "uScale": 1,
@@ -60,153 +60,9 @@
       {
         "type": "box",
         "position": [
-          110,
-          100,
-          0.1
-        ],
-        "rotationMode": "degrees",
-        "rotation": [
-          0,
-          0,
-          0
-        ],
-        "animationMode": "none",
-        "animationKeys": [],
-        "size": [
-          70,
-          70,
-          0.2
-        ],
-        "modelURL": "",
-        "modelScale": 10,
-        "modelAnimation": "None",
-        "color": "#262626ff",
-        "imageType": "repeat",
-        "imageURL": "",
-        "uScale": 1,
-        "vScale": 1,
-        "physicsOptions": "fixed",
-        "magnetic": false,
-        "laserDetection": null,
-        "ultrasonicDetection": null,
-        "receiveShadows": false,
-        "castShadows": false,
-        "isPickable": true
-      },
-      {
-        "type": "box",
-        "position": [
-          20,
-          -150,
-          0.1
-        ],
-        "rotationMode": "degrees",
-        "rotation": [
-          0,
-          0,
-          0
-        ],
-        "animationMode": "none",
-        "animationKeys": [],
-        "size": [
-          70,
-          70,
-          0.2
-        ],
-        "modelURL": "",
-        "modelScale": 10,
-        "modelAnimation": "None",
-        "color": "#262626ff",
-        "imageType": "repeat",
-        "imageURL": "",
-        "uScale": 1,
-        "vScale": 1,
-        "physicsOptions": "fixed",
-        "magnetic": false,
-        "laserDetection": null,
-        "ultrasonicDetection": null,
-        "receiveShadows": false,
-        "castShadows": false,
-        "isPickable": true
-      },
-      {
-        "type": "box",
-        "position": [
-          -120,
-          110,
-          15
-        ],
-        "rotationMode": "degrees",
-        "rotation": [
-          0,
-          0,
-          0
-        ],
-        "animationMode": "none",
-        "animationKeys": [],
-        "size": [
-          30,
-          30,
-          30
-        ],
-        "modelURL": "",
-        "modelScale": 10,
-        "modelAnimation": "None",
-        "color": "#808080ff",
-        "imageType": "repeat",
-        "imageURL": "",
-        "uScale": 1,
-        "vScale": 1,
-        "physicsOptions": "fixed",
-        "magnetic": false,
-        "laserDetection": null,
-        "ultrasonicDetection": null,
-        "receiveShadows": false,
-        "castShadows": false,
-        "isPickable": true
-      },
-      {
-        "type": "box",
-        "position": [
-          80,
           140,
-          15
-        ],
-        "rotationMode": "degrees",
-        "rotation": [
-          0,
-          0,
-          0
-        ],
-        "animationMode": "none",
-        "animationKeys": [],
-        "size": [
-          30,
-          30,
-          30
-        ],
-        "modelURL": "",
-        "modelScale": 10,
-        "modelAnimation": "None",
-        "color": "#808080ff",
-        "imageType": "repeat",
-        "imageURL": "",
-        "uScale": 1,
-        "vScale": 1,
-        "physicsOptions": "fixed",
-        "magnetic": false,
-        "laserDetection": null,
-        "ultrasonicDetection": null,
-        "receiveShadows": false,
-        "castShadows": false,
-        "isPickable": true
-      },
-      {
-        "type": "box",
-        "position": [
           150,
-          -30,
-          15
+          0.1
         ],
         "rotationMode": "degrees",
         "rotation": [
@@ -217,14 +73,14 @@
         "animationMode": "none",
         "animationKeys": [],
         "size": [
-          30,
-          30,
-          30
+          60,
+          60,
+          0.2
         ],
         "modelURL": "",
         "modelScale": 10,
         "modelAnimation": "None",
-        "color": "#808080ff",
+        "color": "#ffb0b0ff",
         "imageType": "repeat",
         "imageURL": "",
         "uScale": 1,
@@ -240,8 +96,116 @@
       {
         "type": "box",
         "position": [
+          -50,
           -40,
-          -70,
+          0.1
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          70,
+          70,
+          0.2
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#262626ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          60,
+          60,
+          0.1
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          70,
+          70,
+          0.2
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#262626ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          110,
+          -130,
+          0.1
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          70,
+          70,
+          0.2
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#262626ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          -150,
+          20,
           15
         ],
         "rotationMode": "degrees",
@@ -276,7 +240,43 @@
       {
         "type": "box",
         "position": [
-          70,
+          -20,
+          110,
+          15
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          30,
+          30,
+          30
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#808080ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          90,
           -60,
           15
         ],
@@ -312,8 +312,80 @@
       {
         "type": "box",
         "position": [
-          -165,
-          -165,
+          150,
+          40,
+          15
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          30,
+          30,
+          30
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#808080ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          -100,
+          -120,
+          15
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          30,
+          30,
+          30
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#808080ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          140,
+          150,
           5
         ],
         "rotationMode": "degrees",
@@ -348,8 +420,8 @@
       {
         "type": "box",
         "position": [
-          165,
-          155,
+          -140,
+          160,
           5
         ],
         "rotationMode": "degrees",
@@ -384,8 +456,8 @@
       {
         "type": "box",
         "position": [
-          -30,
-          170,
+          160,
+          -155,
           5
         ],
         "rotationMode": "degrees",
@@ -419,8 +491,8 @@
       }
     ],
     "startPos": "center",
-    "startPosXYZStr": "",
-    "startRotStr": "",
+    "startPosXYZStr": "-160, -160, 0",
+    "startRotStr": "0",
     "startPosXYZ": null,
     "startRot": null,
     "arenaStartPosXYZ": null,
